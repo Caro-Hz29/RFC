@@ -1,0 +1,57 @@
+<!-- BRENDA CAROLINA CACERES HERNANDEZ 
+PRACTICA 2 - RFC Y API-->
+
+<html>  
+    <head>
+        <link rel="stylesheet" href="estilos.css">
+        <!-- Jquery y Ajax -->
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="funciones.js"></script>
+    </head>
+
+    <body>
+        <div class="titulo">
+            <h1>Practica 2 - RFC</h1>
+        </div>
+
+       <!-- Formulario -->
+        <div class="formpanel"> 
+        <h2>Nombre</h2>
+        <input type = "text" id="nom"> 
+
+        <h2>Apellido Paterno</h2>
+        <input type="text" id="appat">
+
+        <h2>Apellido Materno</h2>
+        <input type="text" id="apmat">
+
+        <h2>Fecha de nacimiento</h2>
+        <input type="date" id="fecha">
+<br>        
+        <!-- Generador de RFC -->
+        <button id="bt1">Generar RFC</button>
+        <h2>RFC</h2>
+        <!-- Readonly no permite modificar lo escrito -->
+        <input type="text" id="rfc" readonly> 
+        </div>
+<br>
+<br>
+        <div class="titulo">
+        <h1>AJAX - API REST</h1>
+        </div>
+<br>
+        <div class="formpanel">
+        <!-- Consulta en la api -->
+        <button id="bt2">Consultar API REST</button>
+
+        <!-- Formulario Ajax -->
+        <h2>Nombre</h2>
+        <input type = "text" id="nom2" readonly> 
+    
+        <h2>Email</h2>
+        <input type="text" id="email" readonly>
+        </div>
+
+    </body> 
+</html>
